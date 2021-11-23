@@ -4,8 +4,8 @@ import cors from "cors";
 import md5 from "md5";
 import "dotenv/config";
 
-const privateKey = process.env.PRIVATE_KEY;
-const publicKey = process.env.PUBLIC_KEY;
+const privateKey = '108386fcbedc12f26fe6de7cefab209e6706ea5b';
+const publicKey = '10f55f530df2a7d5b5ee6cd58bdf8d2c';
 const apiUrl = "http://gateway.marvel.com/v1/public";
 
 const app = express();
